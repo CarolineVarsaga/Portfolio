@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,52 +20,87 @@
         </nav>
     </header>
 
-    <section class="top_section section">
+    <section class="top_section">
         <div class="background_container">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 290">
-                <path fill="#f8f7f4" fill-opacity="1" d="M0,288L80,245.3C160,203,320,117,480,106.7C640,96,800,160,960,176C1120,192,1280,160,1360,144L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
-            </svg>
-            
-            <div class="content_container">
-                <h2>Front end developer - student</h2>
+            <svg id="waveTop" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(248, 247, 244, 1)" offset="0%"></stop><stop stop-color="rgba(248, 247, 244, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,50L48,55C96,60,192,70,288,65C384,60,480,40,576,36.7C672,33,768,47,864,48.3C960,50,1056,40,1152,41.7C1248,43,1344,57,1440,61.7C1536,67,1632,63,1728,65C1824,67,1920,73,2016,65C2112,57,2208,33,2304,21.7C2400,10,2496,10,2592,8.3C2688,7,2784,3,2880,1.7C2976,0,3072,0,3168,6.7C3264,13,3360,27,3456,28.3C3552,30,3648,20,3744,13.3C3840,7,3936,3,4032,13.3C4128,23,4224,47,4320,46.7C4416,47,4512,23,4608,11.7C4704,0,4800,0,4896,1.7C4992,3,5088,7,5184,15C5280,23,5376,37,5472,41.7C5568,47,5664,43,5760,43.3C5856,43,5952,47,6048,48.3C6144,50,6240,50,6336,43.3C6432,37,6528,23,6624,23.3C6720,23,6816,37,6864,43.3L6912,50L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path></svg>            
+            <!-- <div class="content_container">
+                <h2>Front end developer</h2>
+            <button class="btn">Om mig</button>
+            </div>   -->
+        </div>
+        <svg id="waveBottom" class="svg_bottom" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(248, 247, 244, 1)" offset="0%"></stop><stop stop-color="rgba(248, 247, 244, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,50L48,55C96,60,192,70,288,65C384,60,480,40,576,36.7C672,33,768,47,864,48.3C960,50,1056,40,1152,41.7C1248,43,1344,57,1440,61.7C1536,67,1632,63,1728,65C1824,67,1920,73,2016,65C2112,57,2208,33,2304,21.7C2400,10,2496,10,2592,8.3C2688,7,2784,3,2880,1.7C2976,0,3072,0,3168,6.7C3264,13,3360,27,3456,28.3C3552,30,3648,20,3744,13.3C3840,7,3936,3,4032,13.3C4128,23,4224,47,4320,46.7C4416,47,4512,23,4608,11.7C4704,0,4800,0,4896,1.7C4992,3,5088,7,5184,15C5280,23,5376,37,5472,41.7C5568,47,5664,43,5760,43.3C5856,43,5952,47,6048,48.3C6144,50,6240,50,6336,43.3C6432,37,6528,23,6624,23.3C6720,23,6816,37,6864,43.3L6912,50L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path></svg>    </section>
+    <section class="about_section section">
+        <img src="img/carolinev.jpg" width="300px" height="300px" alt="Porträttbild. Bruna ögon, leende mun. Hår ner till axlarna." loading="lazy" class="img_face">
+        <div class="about_container">
+            <h2>Om mig</h2>
             <p>
-                Studerar till front end developer på Medieinstitutet. 
+                Jag är en entusiastisk front end developer med passion för löpande teknisk utveckling. 
+                Jag har öga för det grafiska och brinner för att omsätta kreativa designkoncept till responsiva, 
+                användarvänliga webbsidor. Min strävan är att skapa estetiskt tilltalande digitala upplevelser 
+                baserade på semantiskt uppbyggd kodstruktur.
+
             </p>
             <button class="btn">Knapp</button>
-            </div>  
         </div>
-        
-               
-       <!--  <div class="btn-container">
-            <button class="btn1">Knapp1</button>
-            <button class="btn1">Knapp 2</button>
-            <button class="btn1">Knapp 3</button>
-        </div> -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200" class="svg_bottom">
-            <path fill="#f8f7f4" fill-opacity="1" d="M0,96L60,80C120,64,240,32,360,48C480,64,600,128,720,154.7C840,181,960,171,1080,154.7C1200,139,1320,117,1380,106.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-        </svg>
     </section>
     <section class="middle_section section">
-        <h2 class="middle_section_heading">Rubrik</h2>
+        <h2 class="middle_section_heading">LIA - lärande i arbete</h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus iure, rerum quo dolor officia aut ipsam odio, 
-            tempore possimus qui dolores, eveniet esse? 
-            Quam necessitatibus eveniet nulla. Labore, omnis harum.
+            Under hösten 2024 går jag ut på min första LIA-period. Då kommer jag ha ca 1 års studier i bagaget. 
+            Kompetenser: 
         </p>
-        <button class="btn">Knapp</button>
+        <ul>
+            <li>HTML5, CSS/SCSS </li>
+            <li>JavaScript & TypeScript</li>
+            <li>NoSQL (MongoDB) & MySQL</li>
+            <li>React & Vue</li>
+            <li>UX</li>
+            <li>Agila arbetsmetoder</li>
+            
+        </ul>
+        <p>
+            LIA-period 1: 14 oktober 2024 - 20 december 2024 
+        </p>
+        <p>
+            LIA-period 2: 3 februari 2025 - 23 maj 2025 
+        </p>
+        <button class="btn">Kontakta mig</button>
+    </section>
+    <section class="portfolio_section section">
+        <h2 class="portfolio_section_heading">Portfolio</h2>
+        
+        <div id="slideContainer">
+            <div class="slides fade"></div>
+
+            <div class="slides fade"></div>
+
+            <div class="slides fade"></div>
+
+            <a class="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+            </a>
+            <a class="next">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </a>
+        </div>
+        <div class="dot_container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
     </section>
     <section class="bottom_section section">
-        <div class="img_container"></div>
-        <h2>Rubrik</h2>
+        <h2 class="bottom_section_heading">Kontakta mig</h2>
+        
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus iure, rerum quo dolor officia aut ipsam odio, 
-            tempore possimus qui dolores, eveniet esse? 
-            Quam necessitatibus eveniet nulla. Labore, omnis harum.
+            LIA-period 1: 14 oktober 2024 - 20 december 2024 
         </p>
-        <button class="btn">Knapp</button>
+        <p>
+            LIA-period 2: 3 februari 2025 - 23 maj 2025 
+        </p>
     </section>
-    <footer></footer>
+    
+    <footer>&copy; Caroline Vårsaga 2024</footer>
 </body>
 </html>
