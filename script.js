@@ -1,3 +1,26 @@
+const portfolioBtn = document.getElementById('portfolioBtn');
+const portfolioHeaderBtn = document.getElementById('portfolioHeaderBtn');
+const aboutHeaderBtn = document.getElementById('aboutHeaderBtn');
+
+
+portfolioBtn.addEventListener('click', scrollToPortfolio);
+portfolioHeaderBtn.addEventListener('click', scrollToPortfolio);
+aboutHeaderBtn.addEventListener('click', scrollToAbout);
+
+function scrollToPortfolio() {
+    const portfolioSection = document.getElementsByClassName('portfolio_section')[0];
+    portfolioSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToAbout() {
+    const aboutSection = document.getElementsByClassName('about_section')[0];
+    aboutSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+//==============================================================
+//========================   SLIDER   ==========================
+//==============================================================
+
 let slideIndex = 1;
     showSlides(slideIndex);
 
@@ -29,7 +52,7 @@ let slideIndex = 1;
 
     setInterval(function() {
         plusSlides(1);
-    }, 6000);
+    }, 8000);
 
     const prev = document.querySelector('.prev');
     const next = document.querySelector('.next');
