@@ -7,4 +7,41 @@ body {
             background-image: url('img/laptop-5673901_1280.jpg');
         }
     }
+     //===========================================================================
+    //==============================   PORTFOLIO   ==============================
+    //===========================================================================
+    .portfolio_section {
+       
+        #slideContainer {            
+            .slides {
+                
+                .slide_img_text_container {
+                    max-width: 500px;
+                }
+                .slide_img {
+                    min-width: 98.9svw; 
+                }
+            } 
+            .next { 
+                cursor: pointer;
+            }
+
+            .prev {
+                cursor: pointer; 
+            }
+
+           
+        }
+
+        .dot_container {
+
+            .dot {
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #717171;
+                }
+            }    
+        }        
+    }
 }

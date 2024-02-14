@@ -16,18 +16,15 @@
         <h1 class="heading">Caroline Vårsaga</h1>
         <p class="slogan">Front end developer - student</p>
         <nav>
-            <button class="nav_btn">Om mig</button>
-            <button class="nav_btn">Kontakt</button>
+            <button class="nav_btn" id="aboutHeaderBtn">Om mig</button>
+            <button class="nav_btn" id="portfolioHeaderBtn">Portfolio</button>
+            <button class="nav_btn" id="contactHeaderBtn">Kontakt</button>
         </nav>
     </header>
 
     <section class="top_section">
         <div class="background_container">
             <svg id="waveTop" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(248, 247, 244, 1)" offset="0%"></stop><stop stop-color="rgba(248, 247, 244, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,50L48,55C96,60,192,70,288,65C384,60,480,40,576,36.7C672,33,768,47,864,48.3C960,50,1056,40,1152,41.7C1248,43,1344,57,1440,61.7C1536,67,1632,63,1728,65C1824,67,1920,73,2016,65C2112,57,2208,33,2304,21.7C2400,10,2496,10,2592,8.3C2688,7,2784,3,2880,1.7C2976,0,3072,0,3168,6.7C3264,13,3360,27,3456,28.3C3552,30,3648,20,3744,13.3C3840,7,3936,3,4032,13.3C4128,23,4224,47,4320,46.7C4416,47,4512,23,4608,11.7C4704,0,4800,0,4896,1.7C4992,3,5088,7,5184,15C5280,23,5376,37,5472,41.7C5568,47,5664,43,5760,43.3C5856,43,5952,47,6048,48.3C6144,50,6240,50,6336,43.3C6432,37,6528,23,6624,23.3C6720,23,6816,37,6864,43.3L6912,50L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path></svg>            
-            <!-- <div class="content_container">
-                <h2>Front end developer</h2>
-            <button class="btn">Om mig</button>
-            </div>   -->
         </div>
         <svg id="waveBottom" class="svg_bottom" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(248, 247, 244, 1)" offset="0%"></stop><stop stop-color="rgba(248, 247, 244, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,50L48,55C96,60,192,70,288,65C384,60,480,40,576,36.7C672,33,768,47,864,48.3C960,50,1056,40,1152,41.7C1248,43,1344,57,1440,61.7C1536,67,1632,63,1728,65C1824,67,1920,73,2016,65C2112,57,2208,33,2304,21.7C2400,10,2496,10,2592,8.3C2688,7,2784,3,2880,1.7C2976,0,3072,0,3168,6.7C3264,13,3360,27,3456,28.3C3552,30,3648,20,3744,13.3C3840,7,3936,3,4032,13.3C4128,23,4224,47,4320,46.7C4416,47,4512,23,4608,11.7C4704,0,4800,0,4896,1.7C4992,3,5088,7,5184,15C5280,23,5376,37,5472,41.7C5568,47,5664,43,5760,43.3C5856,43,5952,47,6048,48.3C6144,50,6240,50,6336,43.3C6432,37,6528,23,6624,23.3C6720,23,6816,37,6864,43.3L6912,50L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path></svg>    </section>
     <section class="about_section section">
@@ -35,29 +32,31 @@
         <div class="about_container">
             <h2>Om mig</h2>
             <p>
-                Jag är en entusiastisk front end developer med passion för löpande teknisk utveckling. 
+                Jag är en entusiastisk front end developer med passion för problemlösning. 
                 Jag har öga för det grafiska och brinner för att omsätta kreativa designkoncept till responsiva, 
                 användarvänliga webbsidor. Min strävan är att skapa estetiskt tilltalande digitala upplevelser 
                 baserade på semantiskt uppbyggd kodstruktur.
-
             </p>
-            <button class="btn">Knapp</button>
+            <button class="btn" id="portfolioBtn">Portfolio</button>
         </div>
     </section>
     <section class="middle_section section">
         <h2 class="middle_section_heading">LIA - lärande i arbete</h2>
         <p>
             Under hösten 2024 går jag ut på min första LIA-period. Då kommer jag ha ca 1 års studier i bagaget. 
-            Kompetenser: 
         </p>
+        <p>
+            Jag önskar en LIA-plats där jag kan fortsätta utvecklas och få använda min kreativa sida till att 
+            bygga upp hemsidor/webbapplikationer. Ser framemot att lära mig mer inom bland annat SCSS och JavaScript. 
+        </p>
+        <p>Kompetenser: </p>
         <ul>
             <li>HTML5, CSS/SCSS </li>
             <li>JavaScript & TypeScript</li>
             <li>NoSQL (MongoDB) & MySQL</li>
             <li>React & Vue</li>
             <li>UX</li>
-            <li>Agila arbetsmetoder</li>
-            
+            <li>Agila arbetsmetoder</li>            
         </ul>
         <p>
             LIA-period 1: 14 oktober 2024 - 20 december 2024 
@@ -72,15 +71,47 @@
         <p>Några projekt/uppgifter i urval. Fler finns att finna på min GitHub. Kommer uppdatera allt eftersom under våren.</p>
         <div id="slideContainer">
             <div class="slides fade">
-                <img src="img/css-is-awesome.jpg" height="500px" width="1000px" alt="" loading="lazy" class="slide_img"> 
+                <div class="slide_img_text_container">
+                    <h2>Quiz med TypeScript</h2>
+                    <p>Som gruppuppgift i JavaScript kursen fick vi i uppdrag att skapa ett quiz med TypeScript</p>
+                    <a class="btn a" href="https://github.com/CarolineVarsaga/quiz" target="_blank">Läs mer här</a>
+                </div>                
+                <img src="img/quiz.png" height="500px" width="1000px" alt="" loading="lazy" class="slide_img"> 
             </div>
     
             <div class="slides fade">
-                <img src="img/JP.jpg" height="500px" width="1000px" alt="" loading="lazy" class="slide_img">
+                <div class="slide_img_text_container">
+                    <h2>Webbshop med JavaScript</h2>
+                    <p>Första uppgiften i JavaScript-kursen var att bygga en webbshop med vanilla JavaScript.</p>
+                    <a class="btn a" href="https://github.com/CarolineVarsaga/js-webshop" target="_blank">Läs mer här</a>
+                </div>   
+                <!-- <img srcset="img/gottfrids.png 500w,
+                        img/gottfridsshop.jpg 1280w"
+                    sizes="(max-width: 500px) 500px, 1280px" height="500px"               
+                    alt="webbshop med munkar" loading="lazy" class="slide_img"> -->
+                <picture>
+                    <source media="(min-width: 500px)" srcset="img/gottfridsshop.jpg" height="500px" loading="lazy" class="slide_img">>
+                    <source media="(min-width: 320px)" srcset="img/gottfrids.png" height="500px" loading="lazy" class="slide_img"> 
+                    <img src="img/gottfrids.png" alt="webbshopp med munkar" height="500px" loading="lazy" class="slide_img">>
+                </picture>
             </div>
     
             <div class="slides fade">
-                <img src="img/guardians-of-the-galaxy-n3k9z3pojucb1cun.jpg" height="500px" width="1000px" alt="" loading="lazy" class="slide_img">
+                <div class="slide_img_text_container">
+                    <h2>Kommer snart...</h2>
+                    <p>Uppdaterar inom kort med fler projekt. Spana gärna in min GitHub.</p>
+                    <a class="btn a" href="https://github.com/CarolineVarsaga" target="_blank">GitHub</a>
+                </div>  
+                <img src="img/desk-593327_640.jpg" height="500px"
+                    srcset="img/desk-593327_640.jpg 640w,
+                        img/desk-593327_1280.jpg 1280w,
+                        img/desk-593327_1920.jpg 1920w"
+                    sizes="(max-width: 640px) 640px,
+                        (max-width: 1280px) 1280px,
+                        1920px"
+                    alt="En laptop på ett skrivbord med ett skrivblock och en penna intill."
+                    loading="lazy"
+                    class="slide_img">
             </div>
     
             <a class="prev">
@@ -101,13 +132,16 @@
         <h2 class="bottom_section_heading">Kontakta mig</h2>
         
         <p>
-            LIA-period 1: 14 oktober 2024 - 20 december 2024 
+            E-post: carolinevarsaga@gmail.com
         </p>
         <p>
-            LIA-period 2: 3 februari 2025 - 23 maj 2025 
+            Tel: 073-0840995
         </p>
+        <h3>Besök mig</h3>
+        <a href="http://github.com/carolinevarsaga" target="_blank"><svg width="98" height="96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#24292f"/></svg></a>
+        <a href="http://linkedin.com/in/caroline-varsaga" target="_blank"><img src="img/LinkedIn_logo_initials.png" width="96" height="96" alt="linkedin" ></a>
     </section>
-    
-    <footer>&copy; Caroline Vårsaga 2024</footer>
+
+    <footer>Copyright &copy; Caroline Vårsaga 2024</footer>
 </body>
 </html>
