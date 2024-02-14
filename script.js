@@ -1,11 +1,15 @@
 const portfolioBtn = document.getElementById('portfolioBtn');
 const portfolioHeaderBtn = document.getElementById('portfolioHeaderBtn');
 const aboutHeaderBtn = document.getElementById('aboutHeaderBtn');
+const contactHeaderBtn = document.getElementById('contactHeaderBtn');
+const contactBtn = document.getElementById('contactBtn');
 
 
 portfolioBtn.addEventListener('click', scrollToPortfolio);
 portfolioHeaderBtn.addEventListener('click', scrollToPortfolio);
 aboutHeaderBtn.addEventListener('click', scrollToAbout);
+contactHeaderBtn.addEventListener('click', scrollToContact);
+contactBtn.addEventListener('click', scrollToContact);
 
 function scrollToPortfolio() {
     const portfolioSection = document.getElementsByClassName('portfolio_section')[0];
@@ -15,6 +19,11 @@ function scrollToPortfolio() {
 function scrollToAbout() {
     const aboutSection = document.getElementsByClassName('about_section')[0];
     aboutSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToContact() {
+    const contactSection = document.getElementsByClassName('bottom_section')[0];
+    contactSection.scrollIntoView({ behavior: 'smooth' });
 }
 
 //==============================================================
