@@ -12,4 +12,12 @@
 
 @media screen and (min-width: 1024px) {
   @import 'desktop';
+
+}
+
+@media screen and (min-width: 1280px) {
+  img[src="img/desk-593327_1920.jpg"] {
+    width: 1920px;
+  } 
+
 }
