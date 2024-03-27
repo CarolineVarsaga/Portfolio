@@ -55,8 +55,7 @@ body {
     .section {
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-bottom: 1.5rem;
-        
+        padding-bottom: 1.5rem;        
     }
 
     .btn {
@@ -88,7 +87,7 @@ body {
 
         .background_container {
             background-image: url('img/laptop-5673901_640.jpg');
-            object-fit: cover;
+            background-size: cover;
             background-repeat: no-repeat;
             height: 100%;
             position: relative;
