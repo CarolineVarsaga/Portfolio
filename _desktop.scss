@@ -13,10 +13,18 @@ body {
             font-style: italic;
         }
   
-        nav {
-                
+        .navbar {               
             .nav_btn {                
                 cursor: pointer;
+                position: relative;        
+            }
+            .underline {
+                position: absolute;
+                width: 0;
+                height: 2px;
+                background-color: #a43bc4;
+                bottom: 1.5rem;
+                transition: width 0.3s ease;
             }
         }
     }
