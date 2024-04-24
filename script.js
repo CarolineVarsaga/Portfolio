@@ -3,19 +3,7 @@ const portfolioHeaderBtn = document.getElementById('portfolioHeaderBtn');
 const aboutHeaderBtn = document.getElementById('aboutHeaderBtn');
 const contactHeaderBtn = document.getElementById('contactHeaderBtn');
 const contactBtn = document.getElementById('contactBtn');
-const navBtn = document.querySelectorAll('.nav_btn');
 const underline = document.getElementsByClassName('underline');
-
-
-navBtn.forEach(link => {
-    link.addEventListener('mouseenter', () => {
-        const lineWidth = Math.min(link.offsetWidth * 0.8, 150);
-        gsap.to(underline, {width: lineWidth, left: link.offsetLeft + (link.offsetWidth - lineWidth) / 2, duration: 0.3, ease: 'power2.inOut'});
-    });
-    link.addEventListener('mouseleave', () => {
-        gsap.to(underline, {width: 0, duration: 0.3, ease: 'power2.inOut'});
-    });
-});
 
 portfolioBtn.addEventListener('click', scrollToPortfolio);
 portfolioHeaderBtn.addEventListener('click', scrollToPortfolio);
