@@ -5,6 +5,7 @@ body {
     header {
         padding-left: 5rem;  
         padding-top: 1rem;   
+        height: 150px;
         
         .slogan {
             position: absolute;
@@ -13,19 +14,50 @@ body {
             font-style: italic;
         }
   
-        .navbar {               
-            .nav_btn {                
+        .navbar {     
+            height: 150px;  
+
+            .nav_btn {         
                 cursor: pointer;
-                position: relative;        
+                position: relative;   
+                
+                &::before,
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 1px;
+                    width: 0;
+                    height: 2px;
+                    background-color: #a43bc4;
+                    transition: width 0.3s ease;
+                }
+                
+                &::before {
+                    right: 50%;
+                }
+                
+                &::after {
+                    left: 50%;
+                }
+                
+                &:hover::before,
+                &:hover::after {
+                    width: 50%;
+                    transition: width 0.3s ease;
+                }  
+                
             }
-            .underline {
+            
+
+
+           /*  .underline {
                 position: absolute;
                 width: 0;
                 height: 2px;
                 background-color: #a43bc4;
                 bottom: 1.5rem;
                 transition: width 0.3s ease;
-            }
+            } */
         }
     }
     //===========================================================================
@@ -48,7 +80,7 @@ body {
     //=============================   TOP SECTION   =============================
     //===========================================================================
     .top_section {       
-    
+        
         .background_container {
             background-image: url('img/laptop-5673901_1920.jpg');
             bottom: 1rem; 
